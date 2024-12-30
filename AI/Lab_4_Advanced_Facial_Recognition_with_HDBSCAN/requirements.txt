@@ -1,0 +1,36 @@
+This file lists all the necessary Python packages and their versions required to run the project.
+
+numpy==1.21.2
+opencv-python==4.5.3.56
+matplotlib==3.4.3
+scikit-learn==0.24.2
+hdbscan==0.8.27
+
+To create this file, you can open a text editor, copy the content above, and save it as requirements.txt in your project directory.
+
+Explanation of Each Package
+
+numpy:
+Version: 1.21.2
+Description: NumPy is a fundamental package for numerical computing in Python. It provides support for arrays, matrices, and many mathematical functions.
+
+opencv-python:
+Version: 4.5.3.56
+Description: OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. It includes several hundreds of computer vision algorithms.
+
+matplotlib:
+Version: 3.4.3
+Description: Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications.
+
+scikit-learn:
+Version: 0.24.2
+Description: Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression, and clustering algorithms, including support vector machines, random forests, gradient boosting, k-means, and DBSCAN.
+
+hdbscan:
+Version: 0.8.27
+Description: HDBSCAN is a high-performance implementation of the HDBSCAN clustering algorithm. It is designed to handle large datasets and find clusters of varying densities.
+
+How to Use the requirements.txt File
+To install all the required packages listed in the requirements.txt file, you can use the following command in your terminal or command prompt:
+
+This command will read the requirements.txt file and install the specified versions of the packages.
